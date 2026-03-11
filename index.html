@@ -1,0 +1,636 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="de" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Digitale Produkte, die sofort Wirkung zeigen | BrightDigital</title>
+    <meta
+      name="description"
+      content="E-Books, Templates, Notion-Workspaces und Mini-Kurse: Digitale Produkte für Creator & Freelancer. Starte schneller, liefere besser, verkaufe smarter."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="BrightDigital – Digitale Produkte" />
+    <meta
+      property="og:description"
+      content="Digitale Produkte für Creator & Freelancer: Templates, Notion-Workspaces, Presets & Mini-Kurse."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="BrightDigital Startseite">
+          <span class="brand__mark" aria-hidden="true">◆</span>
+          <span class="brand__text">BrightDigital</span>
+        </a>
+
+        <nav class="nav" aria-label="Hauptnavigation" data-nav>
+          <button
+            class="nav__toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            data-nav-toggle
+          >
+            <span class="nav__toggle-text">Menü</span>
+            <span class="nav__toggle-icon" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav__menu" id="nav-menu" data-nav-menu>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#produkte" data-nav-link>Produkte</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#benefits" data-nav-link>Benefits</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#pricing" data-nav-link>Preise</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#faq" data-nav-link>FAQ</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#kontakt" data-nav-link>Kontakt</a>
+              </li>
+            </ul>
+
+            <div class="nav__actions">
+              <button class="button button--ghost" type="button" data-theme-toggle>
+                Dark Mode
+              </button>
+              <a class="button button--primary" href="#newsletter">Freebie sichern</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="section hero" id="top">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="eyebrow">Digitale Produkte für Creator & Freelancer</p>
+            <h1 class="hero__title">
+              Weniger Chaos. Mehr Output.
+              <span class="hero__title-accent">Sofort einsatzbereite Templates & Tools.</span>
+            </h1>
+            <p class="hero__subtitle">
+              Notion-Workspaces, Design-Templates, Presets und Mini-Kurse – gebaut, um dich
+              schneller von „Idee“ zu „verkauft“ zu bringen.
+            </p>
+
+            <ul class="hero__bullets" aria-label="Nutzenpunkte">
+              <li class="hero__bullet">✓ In Minuten startklar – keine Einarbeitungs-Hölle</li>
+              <li class="hero__bullet">✓ Sauber strukturiert – für echte Workflows</li>
+              <li class="hero__bullet">✓ Updates inklusive – du bleibst aktuell</li>
+            </ul>
+
+            <div class="hero__cta">
+              <a class="button button--primary" href="#produkte">Jetzt kaufen</a>
+              <a class="button button--secondary" href="#newsletter">Demo ansehen</a>
+            </div>
+
+            <p class="hero__note">
+              <span class="badge badge--soft" aria-hidden="true">Neu</span>
+              Kostenloses Starter-Pack für Newsletter-Abonnenten.
+            </p>
+          </div>
+
+          <div class="hero__visual" aria-hidden="true">
+            <div class="panel panel--glow">
+              <div class="panel__header">
+                <span class="dot dot--red"></span>
+                <span class="dot dot--yellow"></span>
+                <span class="dot dot--green"></span>
+              </div>
+              <div class="panel__body">
+                <div class="stat">
+                  <p class="stat__label">Zeitersparnis</p>
+                  <p class="stat__value">≈ 6–10 Std./Woche</p>
+                </div>
+                <div class="stat">
+                  <p class="stat__label">Conversion-Boost</p>
+                  <p class="stat__value">bis zu +18%</p>
+                </div>
+                <div class="stat">
+                  <p class="stat__label">Kundenfeedback</p>
+                  <p class="stat__value">4.9/5 ★</p>
+                </div>
+
+                <div class="mini-cards">
+                  <div class="mini-card">Notion OS</div>
+                  <div class="mini-card">Launch Kit</div>
+                  <div class="mini-card">Preset Pack</div>
+                  <div class="mini-card">Copy Vault</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUKTE -->
+      <section class="section" id="produkte" data-section>
+        <div class="container">
+          <header class="section__header reveal">
+            <h2 class="section__title">Unsere beliebtesten digitalen Produkte</h2>
+            <p class="section__subtitle">
+              Sofort nutzbar, sauber dokumentiert und auf Wachstum ausgelegt.
+            </p>
+          </header>
+
+          <div class="grid grid--cards">
+            <!-- Card 1 -->
+            <article class="card reveal" data-reveal>
+              <header class="card__header">
+                <h3 class="card__title">Notion Creator OS</h3>
+                <span class="badge badge--bestseller">Bestseller</span>
+              </header>
+              <p class="card__text">
+                Dein kompletter Workspace: Content-Planung, Projekte, Kunden, Finanzen – alles an einem Ort.
+              </p>
+              <div class="card__meta">
+                <span class="price">49 €</span>
+                <span class="chip">Notion</span>
+              </div>
+              <div class="card__actions">
+                <a class="button button--primary button--full" href="#pricing">Jetzt kaufen</a>
+                <a class="button button--ghost button--full" href="#newsletter">Demo ansehen</a>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card reveal" data-reveal>
+              <header class="card__header">
+                <h3 class="card__title">Launch Template Pack</h3>
+                <span class="badge badge--new">Neu</span>
+              </header>
+              <p class="card__text">
+                Landingpage-Sektionen, Pricing, FAQ, E-Mail-Snippets – konsistent und conversion-orientiert.
+              </p>
+              <div class="card__meta">
+                <span class="price">39 €</span>
+                <span class="chip">Web</span>
+              </div>
+              <div class="card__actions">
+                <a class="button button--primary button--full" href="#pricing">Jetzt kaufen</a>
+                <a class="button button--ghost button--full" href="#newsletter">Demo ansehen</a>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card reveal" data-reveal>
+              <header class="card__header">
+                <h3 class="card__title">Preset Pack „Clean Color“</h3>
+                <span class="badge badge--soft">Top Value</span>
+              </header>
+              <p class="card__text">
+                24 Lightroom-Presets für natürliche Looks – perfekt für Brand-Content und Reels.
+              </p>
+              <div class="card__meta">
+                <span class="price">29 €</span>
+                <span class="chip">Lightroom</span>
+              </div>
+              <div class="card__actions">
+                <a class="button button--primary button--full" href="#pricing">Jetzt kaufen</a>
+                <a class="button button--ghost button--full" href="#newsletter">Demo ansehen</a>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card reveal" data-reveal>
+              <header class="card__header">
+                <h3 class="card__title">Client Onboarding Kit</h3>
+                <span class="badge badge--soft">Schnellstart</span>
+              </header>
+              <p class="card__text">
+                Onboarding-E-Mails, Briefing-Formular und Projektablauf – damit Projekte sauber starten.
+              </p>
+              <div class="card__meta">
+                <span class="price">35 €</span>
+                <span class="chip">Freelance</span>
+              </div>
+              <div class="card__actions">
+                <a class="button button--primary button--full" href="#pricing">Jetzt kaufen</a>
+                <a class="button button--ghost button--full" href="#newsletter">Demo ansehen</a>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="card reveal" data-reveal>
+              <header class="card__header">
+                <h3 class="card__title">Copy Vault (100+ Vorlagen)</h3>
+                <span class="badge badge--bestseller">Bestseller</span>
+              </header>
+              <p class="card__text">
+                Hooks, Headlines, CTAs, E-Mails – für schnelle Texte, die klar klingen und verkaufen.
+              </p>
+              <div class="card__meta">
+                <span class="price">59 €</span>
+                <span class="chip">Copy</span>
+              </div>
+              <div class="card__actions">
+                <a class="button button--primary button--full" href="#pricing">Jetzt kaufen</a>
+                <a class="button button--ghost button--full" href="#newsletter">Demo ansehen</a>
+              </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="card reveal" data-reveal>
+              <header class="card__header">
+                <h3 class="card__title">Mini-Kurs „Digital verkaufen“</h3>
+                <span class="badge badge--new">Neu</span>
+              </header>
+              <p class="card__text">
+                In 90 Minuten zu deinem Angebot: Positionierung, Funnel-Basics, Preispsychologie & Setup.
+              </p>
+              <div class="card__meta">
+                <span class="price">79 €</span>
+                <span class="chip">Video</span>
+              </div>
+              <div class="card__actions">
+                <a class="button button--primary button--full" href="#pricing">Jetzt kaufen</a>
+                <a class="button button--ghost button--full" href="#newsletter">Demo ansehen</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFITS -->
+      <section class="section section--alt" id="benefits" data-section>
+        <div class="container">
+          <header class="section__header reveal">
+            <h2 class="section__title">Benefits, die du sofort spürst</h2>
+            <p class="section__subtitle">
+              Weniger Entscheidungen, mehr Umsetzung – ohne Kompromisse bei Qualität.
+            </p>
+          </header>
+
+          <div class="grid grid--features">
+            <article class="feature reveal" data-reveal>
+              <div class="feature__icon" aria-hidden="true">⚡</div>
+              <h3 class="feature__title">Sofort einsatzbereit</h3>
+              <p class="feature__text">
+                Öffnen, anpassen, loslegen. Jede Vorlage ist praxisnah strukturiert – kein Overengineering.
+              </p>
+            </article>
+
+            <article class="feature reveal" data-reveal>
+              <div class="feature__icon" aria-hidden="true">🧠</div>
+              <h3 class="feature__title">Klarer Workflow</h3>
+              <p class="feature__text">
+                Von Planung bis Launch: Du bekommst einen roten Faden, der dich schnell ans Ziel bringt.
+              </p>
+            </article>
+
+            <article class="feature reveal" data-reveal>
+              <div class="feature__icon" aria-hidden="true">🔁</div>
+              <h3 class="feature__title">Updates inklusive</h3>
+              <p class="feature__text">
+                Produkte wachsen mit. Verbesserungen und neue Module erhältst du ohne Extra-Stress.
+              </p>
+            </article>
+
+            <article class="feature reveal" data-reveal>
+              <div class="feature__icon" aria-hidden="true">🛡️</div>
+              <h3 class="feature__title">Sauber & professionell</h3>
+              <p class="feature__text">
+                Einheitliche Designs, klare Copy und best practices – damit dein Auftritt wirkt.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOCIAL PROOF -->
+      <section class="section" id="social" data-section>
+        <div class="container">
+          <header class="section__header reveal">
+            <h2 class="section__title">Vertrauen von Creatorn, die liefern</h2>
+            <p class="section__subtitle">
+              Echte Ergebnisse statt leere Versprechen – das sagen Nutzer:innen.
+            </p>
+          </header>
+
+          <div class="logos reveal" aria-label="Beispiel-Logos">
+            <span class="logo">Studio Nord</span>
+            <span class="logo">Mika Creative</span>
+            <span class="logo">LaunchLab</span>
+            <span class="logo">FocusWorks</span>
+            <span class="logo">Kite Media</span>
+          </div>
+
+          <div class="grid grid--testimonials">
+            <figure class="testimonial reveal" data-reveal>
+              <blockquote class="testimonial__quote">
+                „Das Notion OS hat meinen Wochenplan komplett beruhigt. Ich spare locker 6 Stunden pro Woche.“
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="avatar" aria-hidden="true">L</span>
+                <div>
+                  <p class="testimonial__name">Lea, Content Creator</p>
+                  <p class="testimonial__role">Notion Creator OS</p>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial reveal" data-reveal>
+              <blockquote class="testimonial__quote">
+                „Die Launch-Templates haben mir den Aufbau der Landingpage abgenommen – Conversion ist spürbar besser.“
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="avatar" aria-hidden="true">T</span>
+                <div>
+                  <p class="testimonial__name">Tim, Freelancer</p>
+                  <p class="testimonial__role">Launch Template Pack</p>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial reveal" data-reveal>
+              <blockquote class="testimonial__quote">
+                „Copy Vault ist mein Shortcut für Headlines. Endlich klingen CTAs nicht mehr nach Baukasten.“
+              </blockquote>
+              <figcaption class="testimonial__author">
+                <span class="avatar" aria-hidden="true">S</span>
+                <div>
+                  <p class="testimonial__name">Sana, Solo-Founder</p>
+                  <p class="testimonial__role">Copy Vault</p>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="section section--alt" id="pricing" data-section>
+        <div class="container">
+          <header class="section__header reveal">
+            <h2 class="section__title">Preise, die mit dir wachsen</h2>
+            <p class="section__subtitle">
+              Starte schlank oder geh direkt auf Pro – du kannst jederzeit upgraden.
+            </p>
+          </header>
+
+          <div class="grid grid--pricing">
+            <article class="pricing reveal" data-reveal>
+              <header class="pricing__header">
+                <h3 class="pricing__title">Starter</h3>
+                <p class="pricing__price">29 €</p>
+                <p class="pricing__desc">Perfekt für den schnellen Einstieg.</p>
+              </header>
+              <ul class="pricing__list">
+                <li>✓ 1 Produkt nach Wahl</li>
+                <li>✓ Sofortzugang</li>
+                <li>✓ Basis-Updates</li>
+                <li>✓ E-Mail Support (48h)</li>
+              </ul>
+              <a class="button button--primary button--full" href="#kontakt">Jetzt kaufen</a>
+            </article>
+
+            <article class="pricing pricing__plan--featured reveal" data-reveal>
+              <header class="pricing__header">
+                <div class="pricing__badge">
+                  <span class="badge badge--bestseller">Beliebt</span>
+                </div>
+                <h3 class="pricing__title">Pro Bundle</h3>
+                <p class="pricing__price">99 €</p>
+                <p class="pricing__desc">Der beste Deal für Ergebnisse.</p>
+              </header>
+              <ul class="pricing__list">
+                <li>✓ 4 Produkte nach Wahl</li>
+                <li>✓ Updates inklusive</li>
+                <li>✓ Bonus: Starter-Pack</li>
+                <li>✓ Priority Support (24h)</li>
+              </ul>
+              <a class="button button--primary button--full" href="#kontakt">Jetzt kaufen</a>
+            </article>
+
+            <article class="pricing reveal" data-reveal>
+              <header class="pricing__header">
+                <h3 class="pricing__title">Business</h3>
+                <p class="pricing__price">249 €</p>
+                <p class="pricing__desc">Für Teams und skalierbare Prozesse.</p>
+              </header>
+              <ul class="pricing__list">
+                <li>✓ Alle Produkte</li>
+                <li>✓ Team-Lizenz</li>
+                <li>✓ Onboarding-Call (30 Min.)</li>
+                <li>✓ Priority Support (12h)</li>
+              </ul>
+              <a class="button button--primary button--full" href="#kontakt">Jetzt kaufen</a>
+            </article>
+          </div>
+
+          <p class="fineprint reveal">
+            Hinweis: Preise sind Beispielwerte. Du kannst hier später Stripe/PayPal anbinden.
+          </p>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq" data-section>
+        <div class="container">
+          <header class="section__header reveal">
+            <h2 class="section__title">FAQ</h2>
+            <p class="section__subtitle">Die häufigsten Fragen – kurz und klar.</p>
+          </header>
+
+          <div class="faq" data-faq>
+            <details class="faq__item reveal" data-reveal>
+              <summary class="faq__summary">Bekomme ich Updates kostenlos?</summary>
+              <div class="faq__content">
+                Ja. Alle Produkte enthalten Updates. Bei größeren Erweiterungen kann es optional Add-ons geben.
+              </div>
+            </details>
+
+            <details class="faq__item reveal" data-reveal>
+              <summary class="faq__summary">Welche Lizenz gilt für Templates?</summary>
+              <div class="faq__content">
+                Standard ist eine Einzel-Lizenz für deine eigenen Projekte. Business enthält Team-Lizenz.
+              </div>
+            </details>
+
+            <details class="faq__item reveal" data-reveal>
+              <summary class="faq__summary">Gibt es eine Erstattung?</summary>
+              <div class="faq__content">
+                Digitale Produkte sind sofort nutzbar – wir prüfen aber jede Anfrage fair. Schreib uns einfach.
+              </div>
+            </details>
+
+            <details class="faq__item reveal" data-reveal>
+              <summary class="faq__summary">Wie erhalte ich Zugriff nach dem Kauf?</summary>
+              <div class="faq__content">
+                Du bekommst direkt nach dem Kauf einen Download-Link bzw. Zugang per E-Mail.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWSLETTER / LEAD MAGNET -->
+      <section class="section section--alt" id="newsletter" data-section>
+        <div class="container">
+          <div class="cta reveal" data-reveal>
+            <div class="cta__content">
+              <h2 class="cta__title">Kostenloses Starter-Pack sichern</h2>
+              <p class="cta__text">
+                5 Templates + eine Launch-Checkliste. Einmal pro Woche konkrete Tipps – kein Spam.
+              </p>
+              <form class="form" data-form="newsletter" novalidate>
+                <div class="form__row">
+                  <div class="form__field">
+                    <label class="form__label" for="newsletter-name">Name</label>
+                    <input
+                      class="form__input"
+                      id="newsletter-name"
+                      name="name"
+                      type="text"
+                      autocomplete="name"
+                      required
+                    />
+                    <p class="form__error" data-error-for="newsletter-name" aria-live="polite"></p>
+                  </div>
+
+                  <div class="form__field">
+                    <label class="form__label" for="newsletter-email">E-Mail</label>
+                    <input
+                      class="form__input"
+                      id="newsletter-email"
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      required
+                    />
+                    <p class="form__error" data-error-for="newsletter-email" aria-live="polite"></p>
+                  </div>
+                </div>
+
+                <div class="form__actions">
+                  <button class="button button--primary" type="submit">Freebie downloaden</button>
+                  <p class="form__hint">
+                    Mit dem Absenden stimmst du dem Erhalt von E-Mails zu. Abmeldung jederzeit möglich.
+                  </p>
+                </div>
+
+                <p class="form__success" data-form-success aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAKT -->
+      <section class="section" id="kontakt" data-section>
+        <div class="container">
+          <header class="section__header reveal">
+            <h2 class="section__title">Kontakt</h2>
+            <p class="section__subtitle">
+              Fragen zu Lizenzen, Bundles oder Team-Zugängen? Schreib uns – wir helfen schnell.
+            </p>
+          </header>
+
+          <div class="contact">
+            <div class="contact__info reveal" data-reveal>
+              <h3 class="contact__title">Kontaktinfos</h3>
+              <ul class="contact__list">
+                <li><strong>E-Mail:</strong> hello@brightdigital.example</li>
+                <li><strong>Antwortzeit:</strong> Werktags innerhalb von 24–48h</li>
+                <li><strong>Support:</strong> Hilfe bei Setup & Nutzung</li>
+              </ul>
+
+              <div class="contact__social">
+                <a class="link" href="#" aria-label="Instagram (Platzhalter)">Instagram</a>
+                <a class="link" href="#" aria-label="YouTube (Platzhalter)">YouTube</a>
+                <a class="link" href="#" aria-label="LinkedIn (Platzhalter)">LinkedIn</a>
+              </div>
+            </div>
+
+            <form class="form reveal" data-form="contact" novalidate>
+              <div class="form__field">
+                <label class="form__label" for="contact-name">Name</label>
+                <input
+                  class="form__input"
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                />
+                <p class="form__error" data-error-for="contact-name" aria-live="polite"></p>
+              </div>
+
+              <div class="form__field">
+                <label class="form__label" for="contact-email">E-Mail</label>
+                <input
+                  class="form__input"
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+                <p class="form__error" data-error-for="contact-email" aria-live="polite"></p>
+              </div>
+
+              <div class="form__field">
+                <label class="form__label" for="contact-message">Nachricht</label>
+                <textarea
+                  class="form__input form__input--textarea"
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <p class="form__error" data-error-for="contact-message" aria-live="polite"></p>
+              </div>
+
+              <div class="form__actions">
+                <button class="button button--primary" type="submit">Nachricht senden</button>
+                <p class="form__hint">Wir melden uns so schnell wie möglich.</p>
+              </div>
+
+              <p class="form__success" data-form-success aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">© <span data-year></span> BrightDigital. Alle Rechte vorbehalten.</p>
+        <div class="footer__links">
+          <a class="link" href="#">Impressum</a>
+          <a class="link" href="#">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="backtop" type="button" data-backtop aria-label="Nach oben scrollen">
+      ↑
+    </button>
+  </body>
+</html>
