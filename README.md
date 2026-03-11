@@ -21,6 +21,17 @@ Lege einen Screenshot z. B. unter `assets/preview.png` ab und aktiviere dann die
 
 ```md
 ![Vorschau der BrightDigital Landingpage](assets/preview.png)
+## Screenshots
+
+### Startseite
+![Startseite](assets/screenshots/startseite.png)
+
+### Angebot
+![angebot](assets/screenshots/angebot.png)
+
+### Mehrwert
+![mehrwert](assets/screenshots/mehrwert.png)
+
 ```
 
 ---
