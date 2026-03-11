@@ -14,22 +14,14 @@ Das Projekt wurde mit **HTML, CSS und JavaScript** umgesetzt und kann lokal dire
 
 ## Vorschau
 
-> Hier kann später ein Screenshot der Startseite eingefügt werden.
 
-### Beispiel für GitHub-Vorschau
-Lege einen Screenshot z. B. unter `assets/preview.png` ab und aktiviere dann diese Zeile:
-
-```md
-![Vorschau der BrightDigital Landingpage](assets/preview.png)
-## Screenshots
-
-### Startseite
+## Startseite
 ![Startseite](assets/screenshots/startseite.png)
 
-### Angebot
+## Angebot
 ![angebot](assets/screenshots/angebot.png)
 
-### Mehrwert
+## Mehrwert
 ![mehrwert](assets/screenshots/mehrwert.png)
 
 ```
