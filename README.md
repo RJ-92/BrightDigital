@@ -12,22 +12,6 @@ Das Projekt wurde mit **HTML, CSS und JavaScript** umgesetzt und kann lokal dire
 
 ---
 
-## Vorschau
-
-
-## Startseite
-![Startseite](assets/screenshots/startseite.png)
-
-## Angebot
-![angebot](assets/screenshots/angebot.png)
-
-## Mehrwert
-![mehrwert](assets/screenshots/mehrwert.png)
-
-```
-
----
-
 ## Inhalt
 
 - [Schnellstart](#schnellstart)
@@ -65,6 +49,15 @@ Dann im Browser öffnen:
 ```bash
 http://localhost:8000
 ```
+
+## Startseite
+![Startseite](assets/screenshots/startseite.png)
+
+## Angebot
+![angebot](assets/screenshots/angebot.png)
+
+## Mehrwert
+![mehrwert](assets/screenshots/mehrwert.png)
 
 ---
 
